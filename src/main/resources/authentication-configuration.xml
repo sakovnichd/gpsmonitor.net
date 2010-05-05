@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--bLConfiguration
+ name="ORGANIZATION"
+ url="http://mg-sv02:9876/authentication/Ah?wsdl"
+/-->
+<bLConfiguration
+ name="ORGANIZATION"
+ url="http://192.168.150.36:8083/authentication/Ah?wsdl"
+/>

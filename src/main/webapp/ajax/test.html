@@ -1,0 +1,62 @@
+<html>
+<head>
+</head>
+
+<body>
+
+<script type="text/javascript" language="javascript">
+// <![CDATA[		
+
+var http_request = false;
+
+function makeRequest(url) {
+	http_request = false;
+
+	if (window.XMLHttpRequest) { // Mozilla, Safari,...
+		http_request = new XMLHttpRequest();
+		if (http_request.overrideMimeType) {
+			http_request.overrideMimeType('text/xml');
+		}
+	} else if (window.ActiveXObject) { // IE
+		try {
+			http_request = new ActiveXObject("Msxml2.XMLHTTP");
+		} catch (e) {
+			try {
+				http_request = new ActiveXObject("Microsoft.XMLHTTP");
+			} catch (e) {}
+		}
+	}
+
+	if (!http_request) {
+		alert('Невозможно выполнить XMLHTTP запрос');
+		return false;
+	}
+
+	http_request.onreadystatechange = alertContents;
+	http_request.open('POST', url, true);
+	http_request.send('5');
+}
+
+function alertContents() {
+	if (http_request.readyState == 4) {	// COMPLETED
+		if (http_request.status == 200) {	// HTTP STATUS
+			document.getElementById("ajax_data").innerHTML=http_request.responseText;
+		} else {
+			document.getElementById("ajax_data").innerHTML='Ошибка';
+		}
+	}
+}
+
+// ]]>	
+</script>
+
+<span	style="cursor: pointer; text-decoration: underline" onclick="makeRequest('test.php')">
+Нажми сюда
+</span>
+
+<div id="ajax_data">
+Rand() будет появляться здесь
+</div>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+.calendar {
+  position:absolute;
+	z-index:4000;
+	width:211px;
+	border:1px solid #464B52;
+	text-align:center;
+	background-color:#FFFFFF;
+  }
+.calendar, .calendar button, .calendar select, .calendar table {font-size:9pt; 	font-family:tahoma,"free sans",helvetica,sans-serif}
+
+.calendarHeader {
+  background-color:#3D76BE;
+	padding:3px;
+	border-bottom:1px solid #6E7B87;
+  }
+.calendarHeader table {margin:0 auto; border-collapse:collapse}
+.calendarHeader td {}
+.calendarHeader button {border:1px solid #FFFFFF; line-height:1.0; width:20px; text-align:center}
+.nextMonthButton, .prevMonthButton {height:18px}
+.monthContainer select, .yearContainer select {height:20px}
+.prevMonthButton {float:right}
+.nextMonthButton {float:left}
+.monthContainer select {border:1px solid #4E5566}
+.yearContainer select {border:1px solid #4E5566}
+
+.calendarBody {padding:0 1px}
+.calendarGrid {
+  margin:0 auto;
+  font-weight:normal;
+	color:#464B52;
+	cursor:default;
+	border-collapse:collapse;
+  }
+.calendarGrid td {border:1px solid #FFFFFF}
+th.weekNumberHead {font-size:8pt; color:#909090}
+th.weekDayHead {
+  font-size:8pt;
+  font-weight:bold;
+	border-bottom:1px solid #E0E0E0;
+  }
+.calendarGrid tbody td {
+  width:20px;
+  text-align:center;
+  vertical-align:top;
+  font-size:10pt;
+  font-weight:normal;
+  cursor:pointer;
+  }
+.calendarGrid tbody td.weekNumber {
+  width:15px;
+  font-size:7pt;
+  font-weight:normal;
+	border-right:1px solid #E0E0E0;
+	cursor:text;
+	color:#A0A0A0;
+  }
+.calendarBody td.today {font-weight: bold}
+.calendarBody td.current {background-color:#FFF9E4}
+.calendarBody td.selected {background-color:#DBF5FF}
+.calendarGrid td.weekend {color:#F63C17}
+.calendarGrid tbody td.weekNumNoBorder {border-right:1px solid #FFFFFF}
+.calendarGrid tbody td.weekNumDoBorder {border-right:1px solid #E0E0E0}
+.tinyCalendarWeek td {padding:0; height:0; font-size:0; line-height:0}
+
+.calendarFooter {padding-bottom:3px}
+.calendarSubmitTable {margin:0 auto}
+.calendarFooter button {margin:0 1px; border:1px solid #707070; line-height:1.0}
+.calendarUnderDiv {z-index:3999; margin:0; padding:0; border:1px solid #464B52 }
+.dn {display:none}
+
+#debug {position:absolute; top:5px; right:5px}

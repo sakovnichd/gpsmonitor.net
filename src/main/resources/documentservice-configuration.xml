@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--bLConfiguration
+ name="DocumentService"
+ namespace="http://documents.bigarchive.magnetosoft.ru/"
+ url="http://mg-sv02:9880/ba-server/DocumentServices?wsdl"
+/-->
+<bLConfiguration
+ name="DocumentService"
+ namespace="http://documents.bigarchive.magnetosoft.ru/"
+ url="http://192.168.150.36:8083/ba-server/DocumentServices?wsdl"
+/>

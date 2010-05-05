@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--bLConfiguration
+ name="SearchService"
+ namespace="http://search.bigarchive.magnetosoft.ru/"
+ url="http://mg-sv02:9880/ba-server/SearchServices?wsdl"
+/-->
+<bLConfiguration
+ name="SearchService"
+ namespace="http://search.bigarchive.magnetosoft.ru/"
+ url="http://192.168.150.36:8083/ba-server/SearchServices?wsdl"
+/>

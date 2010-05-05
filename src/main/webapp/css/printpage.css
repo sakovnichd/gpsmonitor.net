@@ -1,0 +1,142 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	font: normal 12px arial, helvetica, sans-serif;
+}
+body {
+	margin: 5px;
+}
+div {
+}
+pre {
+	font: normal 12px arial, helvetica, sans-serif;
+}
+table {
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+img {
+	border: 0;
+}
+td {
+	font: normal 12px arial, helvetica, sans-serif;
+}
+p {
+	line-height: 130%;
+	text-indent: 0;
+	margin: 0 0 10px 0;
+}
+h1 {
+	font: bold 18px arial, helvetica, sans-serif;
+	color:#666;
+}
+h2 {
+	font: bold 16px arial, helvetica, sans-serif;
+	color:#666;
+}
+strong {
+	color: #666;
+	margin-left: 0px;
+}
+a {
+	color: #000;
+	text-decoration: underline;
+}
+a:hover {
+	color: #f60;
+}
+input, textarea {
+	font: normal 12px arial, helvetica, sans-serif;
+}
+form {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	margin: 0 0 0 10px;
+	padding: 0 0 0 10px;
+}
+li {
+	margin: 2px 0;
+	padding: 0;
+}
+dl {
+	margin: 0;
+	padding: 0;
+}
+dt {
+	font-weight: bold;
+	color:#666;
+	margin: 5px 0 0 0;
+	padding: 0;
+}
+dd {
+	margin: 0 0 0 20px;
+	padding: 0;
+}
+.gray {
+	color:#666;
+}
+.br {
+	clear: both;
+}
+
+.header {
+	height: 80px;
+	background: #fff;
+}
+div.title {
+    float:right;
+    width:200px;
+    padding:25px 0 0 0;
+}
+.title img {
+}
+.logo {
+	float: left;
+	width: 155px;
+	height: 60px;
+}
+div#body {
+}
+div#map {
+}
+#map img.map {
+	border:1px solid #000;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(Rotation=3);
+}
+
+
+
+
+img.legend {
+}
+div#routes {
+    page-break-before:always;
+}
+#routes table.routes td {
+	padding:5px 5px;
+	vertical-align: top;
+}
+#routes div.maplist {
+	background:#fff;
+	margin:0 0 15px 0;
+}
+#routes h1 {
+    margin:0 0 15px 0;
+}
+#routes h2 {
+}
+#routes dl.first {
+}
+div.blue {
+    border-top:1px solid #009;
+}
+div.magenta {
+    border-top:1px solid #900;
+}
+div.green {
+    border-top:1px solid #090;
+}
